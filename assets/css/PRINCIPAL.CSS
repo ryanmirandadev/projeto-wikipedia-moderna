@@ -1,0 +1,97 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img{
+    width: 100px;
+    margin: 20px 10px;
+}
+
+.conteudo img{
+    width: 400px;
+}
+
+nav ul { list-style: none; padding-left: 5px; }
+
+.anchors ul li{ list-style: none; padding-left: 5px; }
+
+a { color:blue; text-decoration: none;}
+
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+main{
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+
+footer p{
+    font-size: 11px;
+    text-align: center;
+}
+
+footer ul{
+  font-size: 11px;
+  text-align: center;
+}
+
+footer ul li{
+    display: inline;
+    padding: 1%;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+figure {
+    text-align: center;
+}
+
+.tabela {
+    font-size: 13.5px;
+    border: 1px solid #A2A9B1;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: Center;
+}
+.tabela-descricao{
+    border: 1px solid #A2A9B1;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+}
+table tr{
+    border: 1px solid #A2A9B1;
+}
+table td{
+    border: 1px solid #A2A9B1;
+}
+
+.principal{
+    text-align: center;
+    background-color: #BBFFDD;
+}
+.recorrente{
+    text-align: center;
+    background-color: #FFE3E3;
+}
